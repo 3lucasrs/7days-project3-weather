@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #0083e1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lucas {
+    color: #00538e;
+    font-weight: bold;
+}
+
+h1 {
+    color: #FFF;
+    margin: 0;
+}
+
+.descapi {
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+    font-size: 10px;
+    color: #FFF;
+}
+
+.busca {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.busca #searchInput {
+    flex: 1;
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 0;
+}
+
+.busca button {
+    margin-top: 15px;
+    width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    border: 0;
+    background-color: #00538e;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.busca button:hover {
+    background-color: #003b65;
+}
+
+#loading {
+    width: 64px;
+    height: 64px;
+}
+
+.resultado {
+    margin-top: 15px;
+    width: 300px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #00538e;
+    border-radius: 5px;
+}
+
+.titulo {
+    width: 100%;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.divisor {
+    width: 100%;
+    height: 1px;
+    background-color: #003b65;
+}
+
+.resultado .linha {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linha .item {
+    width: 100%;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.item-titulo {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.itemd {
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temperatura,
+.velocidade {
+    color: #FFF;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 5px;
+    padding: 10px 0;
+}
+
+.velocidade {
+    display: flex;
+    flex-direction: row;
+}
+
+.temperatura sup {
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.minmax {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+.minmax p {
+    text-align: center;
+    font-size: 10px;
+    line-height: 10px;
+    color: #FFF;
+}
+
+
+.velocidade span {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 15px;
+}
+
+.nuvensdesc,
+.ventodesc {
+    color: white;
+}
+
+img {
+    width: 90%;
+    height: auto;
+}
+
+.ventoArea {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+    margin: auto;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+
+.ventoPonto {
+    width: 15px;
+    height: 1px;
+    background-color: #FFF;
+    transform-origin: left;
+}
+
+.aviso {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    padding-top: 20px;
+}
+
+footer {
+    text-align: center;
+    color: #FFF;
+    font-size: 13px;
+}
+
+.sociais {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.sociais i {
+    padding: 0 10px;
+}
+
+.sociais i:hover {
+    color: #003b65;
+}
+
+.sociais a {
+    color: #FFF;
+}
